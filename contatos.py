@@ -22,4 +22,4 @@ class GerenciadorContatos:
         return None
 
     def listar_contatos(self):
-        return [(contato.nome, contato.email, contato.telefone) for contato in self.contatos]
+        return [(contato.nome, contato.telefone) for contato in self.contatos]
